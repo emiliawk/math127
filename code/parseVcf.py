@@ -1,3 +1,9 @@
+# this code parses the ExAC aggregation vcf data file and extracts only the following columns:
+# chr numer, position, AC, AC_AFR, AC_AMR, AC_Adj, AC_EAS, AC_FIN, AC_Het, AC_Hom, AC_NFE, AC_SAS, AF, 
+# AN, AN_AFR, AN_AMR, AN_Adj, AN_EAS, AN_FIN, AN_NFE, AN_SAS
+# for positions that pass the filtering
+# the code outputs 22 samller files named chr.#_analysis
+
 #!/usr/bin/env python
 
 import sys

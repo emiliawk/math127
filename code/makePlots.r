@@ -1,3 +1,8 @@
+# this code takes in the filtered data files obtained by running parseVcf.py and 
+# produces 345 plots of the minor allele frequency as a function of position for every pair of populations
+# it then filters for rare variants and produces another 345 plots of the minor allele frequency as a function of position
+
+
 rm(list=ls())
 # paths and names ---------------------------------------------------------
 
